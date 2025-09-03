@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")// Essential to allow your frontend to connect
+@CrossOrigin(origins = "http://portfolio.mubeen.online")// Essential to allow your frontend to connect
 public class ContactController {
 
     private final EmailService emailService;
