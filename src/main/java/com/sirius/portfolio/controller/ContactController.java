@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = {
         "https://www.mubeen.online",
         "https://portfolio-frontend-git-main-siriusb791s-projects.vercel.app",
+        "https://portfolio.mubeen.online/",
         "https://portfolio-frontend-c8jwjmnag-siriusb791s-projects.vercel.app"
 })// Essential to allow your frontend to connect
 public class ContactController {
